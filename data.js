@@ -1,238 +1,282 @@
 export const bio = [
-    "Hello there, This is Vinay Somawat.",
-    `Experienced Frontend Software Engineer with a strong track record of successfully upgrading applications, optimizing performance, and delivering innovative solutions.`,
-    `Eager to apply my technical expertise and in-depth
-    product understanding to drive impactful contributions and exceed expectations in challenging projects.`,
+    "Hello there, This is Amirhossein Ahmadi.",
+    `I graduated recently with a B.S.c degree in Computer Engineering from the Iran University of Science and Technology (IUST).`,
+    `I am interested in Game Development, Algorithms, Software Engineering, Systems Security, Embedded & Real-Time Systems, Data Science, and Deep Learning.`,
+    `I'm also a former student of the Computer Olympiad, with a background as a Backend Developer (Spring, Django) and limited work in the field of Data Science.`,
     "Thanks for taking the time to learn a little about me!",
 ];
 
 export const skills = [
     {
-        title: "Languages",
-        skillName: "JavaScript, TypeScript",
+        title: "Proficient at",
+        skillName: "Python, C, C++, Java",
         color: "1",
         percentage: "80",
     },
     {
-        title: "Frameworks/Libraries",
-        skillName: "Angular, RxJS, NGXS",
+        title: "Familiar with",
+        skillName: "Assembly, C\#, Verilog, Arduino",
         color: "6",
-        percentage: "70",
+        percentage: "50",
     },
     {
-        title: "Design",
-        skillName: "HTML, Bootstrap, Tailwind",
+        title: "Others",
+        skillName: "Competitive Programming, Algorithms",
         color: "4",
-        percentage: "70",
+        percentage: "90",
     },
     {
-        title: "Version Control",
-        skillName: "GitHub, JIRA, Bitbucket",
+        title: "Python frameworks",
+        skillName: "Django, Django-Rest",
         color: "7",
         percentage: "70",
     },
     {
-        title: "Tools",
-        skillName: "Postman, Chrome DevTools",
+        title: "Java frameworks",
+        skillName: "Spring, Spring-Boot",
         color: "3",
-        percentage: "80",
+        percentage: "70",
     },
     {
-        title: "Analytics",
-        skillName: "CleverTap, Countly",
+        title: "Data and ML",
+        skillName: "Pandas, Numpy, TensorFlow, Keras",
         color: "5",
-        percentage: "50",
+        percentage: "60",
     },
     {
-        title: "IDE",
-        skillName: "VS Code",
-        color: "6",
+        title: "Native Language",
+        skillName: "Persian (Farsi)",
+        color: "2",
+        percentage: "100",
+    },
+    {
+        title: "Foreign Language",
+        skillName: "English",
+        color: "1",
         percentage: "70",
     },
 ];
 
 export const projects = {
-    webProjects: [
+    academicProjects: [
         {
-            projectName: "Programming Diaries",
-            image: "images/programmingdiaries.png",
+            projectName: "MPA Classification - NLP",
+            image: "images/mpa.jpg",
             summary:
-                "Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
-            preview: "https://programmingdiaries.herokuapp.com/",
-            techStack: ["Django", "SQLite", "Bootstrap", "JavaScript", "Heroku"],
+                "This project aims to classify movies into different ratings based on their plots.",
+            preview: "https://github.com/AmirH-KHALI/mpa-classification-using-plot",
+            techStack: ["Python", "Jupyter Notebook", "Transformes", "Bert"],
         },
         {
-            projectName: "Find Your Bank",
-            image: "images/findyourbank.png",
+            projectName: "OCR - Deep Learning",
+            image: "images/ocr.png",
             summary:
-                "Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
-            preview: "https://clever-fermi-0d5d76.netlify.app",
-            techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
+                "This model is for extracting the national ID and card number from the national card and bank card.",
+            preview: "https://github.com/meliiwamd/OpticalCharacterRecognition",
+            techStack: ["Python", "Juputer Notebook", "Pillow", "OpenCV"],
         },
         {
-            projectName: "Web Portfolio",
-            image: "images/portfolio.png",
+            projectName: "Deep Learning Course",
+            image: "images/deep-learning.jpg",
             summary:
-                "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
-            preview: "https://github.com/vinaysomawat/Travographer-Portal",
-            techStack: ["HTML", "Bootstrap", "JavaScript"],
+                "Various projects, such as filtering images and classification.",
+            preview: "https://github.com/AmirH-KHALI/deep-learning-course-00011",
+            techStack: ["Python", "Juputer Notebook", "Keras", "TensorFlow"],
         },
         {
-            projectName: "Resume Builder",
-            image: "images/resume-builder.png",
+            projectName: "Computational Intelligence Course",
+            image: "images/computational-intelligence.jpeg",
             summary:
-                "Browser based editor to build and download Resumes in a customizable templates.",
-            preview: "https://vinaysomawat.github.io/Resume-Builder",
-            techStack: ["HTML", "Bootstrap", "JavaScript"],
+                "Various implementation such as SOFM, MLP, Hopfield Network, ... from scratch.",
+            preview: "https://github.com/AmirH-KHALI/computational-intelligence-course",
+            techStack: ["Python", "Juputer Notebook", "MatplotLib", "Scikit‑learn"],
+        },
+        {
+            projectName: "MHQ - Software Engineering",
+            image: "images/mhq.jpg",
+            summary:
+                "This App is a Collaboration Platform for API Development and Automation. it Simplifies each step of building an API, creating scenarios for your APIs and so much more.",
+            preview: "https://github.com/mhq-dev",
+            techStack: ["Python", "Django", "Docker", "Celery", "Celery-beat"],
+        },
+        {
+            projectName: "Artificial Intelligence Course",
+            image: "images/pacman.png",
+            summary:
+                "This repository contains my solutions for the projects of Artificial Intelligence course at Iran University of Science and Technology (IUST).",
+            preview: "https://github.com/AmirH-KHALI/artificial-intelligence-course-99001",
+            techStack: ["Python"],
+        },
+        {
+            projectName: "TalkZone - System Design \& Analysis",
+            image: "images/2319.jpg",
+            summary:
+                "This is a Dating App like Tinder with the difference that instead of photos, users get acquainted with each other by writing \"Opening Message\" in different categories and engage in conversation.",
+            preview: "https://github.com/twenty-three-nineteen",
+            techStack: ["Python", "Django", "Django-Channels"],
+        },
+        {
+            projectName: "Algorithm Design Course",
+            image: "images/algorithms.jpg",
+            summary:
+                "Algorithms on Graphs, Algorithms on Strings and Advanced Algorithms and Complexity courses in UCSD Data Structures and Algorithms Specialization.",
+            preview: "https://github.com/AmirH-KHALI/algorithm-design-course-98992",
+            techStack: ["C#", ".Net", "Visual Studio"],
+        },
+        {
+            projectName: "Data Structures Course",
+            image: "images/data-structure.webp",
+            summary:
+                "Algorithmic Toolbox and Data Structures courses in UCSD Data Structures and Algorithms Specialization",
+            preview: "https://github.com/AmirH-KHALI/data-structures-course-98991",
+            techStack: ["C#", ".Net", "Visual Studio"],
+        },
+        {
+            projectName: "Stronghold - Advanced Programming",
+            image: "images/Stronghold.jpg",
+            summary:
+                "This is a simple game that simulates a medieval castle siege. The player can build and upgrade their stronghold, recruit and train soldiers, and defend against enemy attacks.",
+            preview: "https://github.com/AmirH-KHALI/advanced-programming-final-project-stronghold",
+            techStack: ["Java", "javaFx", "Swing"],
+        },
+        {
+            projectName: "River Raid - Programming Basics",
+            image: "images/river-raid.jpeg",
+            summary:
+                "This is a simple game inspired by the classic Atari game River Raid. The goal is to fly a jet through a river and avoid crashing into enemies or obstacles.",
+            preview: "https://github.com/amirh-khali/programming-basics-final-project-river-raid",
+            techStack: ["C++", "SDL2"],
         },
     ],
     softwareProjects: [
-        {
-            projectName: "Pizza Ordering ChatBot",
-            image: "images/pizzaorderchatbot.png",
-            summary:
-                "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
-            preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-            techStack: ["Dailogflow", "Firebase"],
-        },
-        {
-            projectName: "WhatsApp-Bot",
-            image: "images/whatsappbot.jpg",
-            summary:
-                "Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
-            preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-            techStack: ["Selenium", "Chrome Webdriver", "Python"],
-        },
-        {
-            projectName: "Bill Generator",
-            image: "images/billgenerator.png",
-            summary:
-                "GUI to transfer data to excel sheets and generate bills on the local shops.",
-            preview: "https://github.com/vinaysomawat/Bill-Generator",
-            techStack: ["Tkinter", "Openxlpy", "Python"],
-        },
+        // {
+        //     projectName: "Pizza Ordering ChatBot",
+        //     image: "images/pizzaorderchatbot.png",
+        //     summary:
+        //         "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
+        //     preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
+        //     techStack: ["Dailogflow", "Firebase"],
+        // },
+        // {
+        //     projectName: "WhatsApp-Bot",
+        //     image: "images/whatsappbot.jpg",
+        //     summary:
+        //         "Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
+        //     preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
+        //     techStack: ["Selenium", "Chrome Webdriver", "Python"],
+        // },
+        // {
+        //     projectName: "Bill Generator",
+        //     image: "images/billgenerator.png",
+        //     summary:
+        //         "GUI to transfer data to excel sheets and generate bills on the local shops.",
+        //     preview: "https://github.com/vinaysomawat/Bill-Generator",
+        //     techStack: ["Tkinter", "Openxlpy", "Python"],
+        // },
     ],
     androidProjects: [
-        {
-            projectName: "NITW-CSE",
-            image: "images/nitwcse.jpg",
-            summary:
-                "The Application display details of Department courses, reference books, research, publication and faculty profile.",
-            preview: "https://github.com/vinaysomawat/NITW-CSE",
-            techStack: ["JAVA", "XML", "Android"],
-        },
-        {
-            projectName: "CareerHigh-App",
-            image: "images/carrerhigh.png",
-            summary:
-                "The Application display the webpages of website careerhigh.in in android devices.",
-            preview: "https://github.com/vinaysomawat/CareerHigh-Android",
-            techStack: ["JAVA", "XML", "Android"],
-        },
+        // {
+        //     projectName: "NITW-CSE",
+        //     image: "images/nitwcse.jpg",
+        //     summary:
+        //         "The Application display details of Department courses, reference books, research, publication and faculty profile.",
+        //     preview: "https://github.com/vinaysomawat/NITW-CSE",
+        //     techStack: ["JAVA", "XML", "Android"],
+        // },
+        // {
+        //     projectName: "CareerHigh-App",
+        //     image: "images/carrerhigh.png",
+        //     summary:
+        //         "The Application display the webpages of website careerhigh.in in android devices.",
+        //     preview: "https://github.com/vinaysomawat/CareerHigh-Android",
+        //     techStack: ["JAVA", "XML", "Android"],
+        // },
     ],
     freelanceProjects: [
-        {
-            projectName: "SnylloAir.com",
-            image: "images/snylloair.png",
-            summary:
-                "Developed a company website to showcase the purpose, services and products provided by the company to audience.",
-            preview: "https://www.snylloair.com/",
-            techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
-        },
-        {
-            projectName: "Delivery+",
-            image: "images/AM-Logo-.png",
-            summary: "Android Application to display website in android devices.",
-            preview:
-                "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
-            techStack: ["Android", "JAVA", "Play Store"],
-        },
+        // {
+        //     projectName: "SnylloAir.com",
+        //     image: "images/snylloair.png",
+        //     summary:
+        //         "Developed a company website to showcase the purpose, services and products provided by the company to audience.",
+        //     preview: "https://www.snylloair.com/",
+        //     techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
+        // },
+        // {
+        //     projectName: "Delivery+",
+        //     image: "images/AM-Logo-.png",
+        //     summary: "Android Application to display website in android devices.",
+        //     preview:
+        //         "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
+        //     techStack: ["Android", "JAVA", "Play Store"],
+        // },
     ],
 };
 
 export const experience = [
     {
-        title: "Shiprocket (Bigfoot Solution Private Limited)",
-        duration: "September 2022 - Present",
-        subtitle: "Software Engineer",
+        title: "Metrix",
+        duration: "Feb. 2023 - Present",
+        subtitle: "Back-End Developer",
         details: [
-            "Working in support and escalation team."
+            `Developed and Maintained some micro-services (based on Kotlin and Spring Boot) related to "Marketing Automation".`,
+            `Expanded new features like Automation Journey and Different types of Campaigns (SMS/Email/Push-Notification/..).`,
+            `Worked with many databases and message queuing services like MongoDB, Elasticsearch, and Kafka.`,
+            `Deployed and monitor services using Kubectl, Grafana, Kibana and Sentry.`,
         ],
-        tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
+        tags: ["Java", "Spring boot", "Kafka", "Elasticsearch"],
         icon: "heartbeat",
     },
     {
-        title: "Biofourmis India Private Limited",
-        duration: "April 2022 - Jul 2023",
-        subtitle: "Software Engineer",
+        title: "Pinket",
+        duration: "Jul. 2021 - Nov. 2021",
+        subtitle: "Data Scientist",
         details: [
-            `Implemented microfrontends using the Module Federation Plugin in Angular.
-            Rendered components from remote modules/repositories, enabling a modular and scalable architecture`,
-            `Upgraded application with a dynamic base URL for flexible operation across multiple regions and verticals, leading to
-            recognition with the Biofourmis Bravo award in Q1, 2023.`,
-            `Implemented RxState for managing local state in components, resulting in elegant and reactive facades.`,
-            `Utilized Twilio-Video for group video call rooms and Countly for Web Analytics.`,
-            `Integrated NGXS WebSocket, enhancing state management and replacing legacy service injections.`,
-            `Implemented extensive RxJS usage for reactive programming, resulting in efficient data handling, improved state
-            management, and enhanced application performance.`,
-            `Dramatically optimized load time and performance through code splitting, lazy loading, caching, and preload`,
-            `Enhanced video call experience by implementing real-time switching of I/O devices and audio level indicators,
-            resulting in reduced audio issues and increased user satisfaction.`,
-            `Owned and led successful Angular application upgrades from version 12 to 13 and 14, improving performance
-            and enhancing features.`,
+            `Maintained a prediction service related to "Retail Inventories".`,
+            `Developed required features to improve availability of goods and minimize the false positive.`,
+            `Designed new models to help the main model results.`,
+            `Analyzed the data using Python, Pandas, Numpy, etc.`,
         ],
-        tags: ["JavaScript", "Angular", "RxJS", "NGXS", "TypeScript", "RxState", "Webpack", "Optimization"],
-        icon: "heartbeat",
-    },
-    {
-        title: "Novopay Solutions Private Limited",
-        duration: "June 2020 - April 2022",
-        subtitle: "Software Engineer",
-        details: [
-            `Implemented AePS Services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements,
-            and Money transfer.`,
-            `Implemented QR Code integration for retailer wallet money loading, Clevertap events for user action tracking,
-            Freshdesk ticketing, Chatbot services, and Retailer onboarding/admin interfaces.`,
-            `Developed retailer QR code system for seamless money loading into wallets, resulting in improved user transactions.`,
-            `Achieved 70 percent code coverage of the entire application by writing unit tests for legacy code.`,
-        ],
-        tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
+        tags: ["Python", "Pandas", "Numpy", "Boosting Models", "MongoDB"],
         icon: "qrcode",
     },
     {
-        title: "ThinkPedia LLP",
-        duration: "May 2019 - June 2019",
-        subtitle: "SDE Intern",
+        title: "Pinket",
+        duration: "Aug. 2020 - Mar. 2021",
+        subtitle: "Back-End Developer",
         details: [
-            `Developed a customer web application for social media management, supporting the advertisement domain.`,
+            `Maintained a back-end service (based on Spring Boot) related to ”Retail Inventories”.`,
+            `Developed required features for the process of apply new goods availability with OOP`,
+            `Expanded new features for shoppers application in the android app and server.`,
+            `Worked closely with my PM and other colleagues as an agile team for improving our products.`,
         ],
-        tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
+        tags: ["Java", "Spring", "Spring boot", "PostgreSQL", "Android"],
         icon: "group",
     },
 ];
 
 export const education = [
     {
-        title: "B.Tech. in Computer Science and Engineering",
-        duration: "2016 - 2020",
-        subtitle: "National Institute of Technology, Warangal",
-        details: [],
-        tags: [
-            "Data Structures & Algorithms",
-            "Operating Systems",
-            "Database Management System",
-            "Computer Networks",
-            "Compiler Designing",
-            "Cloud Computing",
+        title: "B.S. in Computer Engineering",
+        duration: "Sep. 2018 - Sep. 2023",
+        subtitle: "Iran University of Science and Technology (IUST)",
+        details: [
+            `Ranked 4th among Iran universities based on QS ranking 2024`,
+            `GPA - Last two years [via 78 credits]: 3.8 (17.68 / 20)`,
+            `GPA - Overall [via 143 credits]: 3.35 (16.54 / 20)`,
+            `Final Thesis: Data collection and automatic labeling for dense video captioning models`,
         ],
+        tags: [],
         icon: "graduation-cap",
     },
     {
-        title: "Class 12th in Science and Mathematics",
-        duration: "",
-        subtitle: "Board of Secondary Education, Rajasthan",
-        details: [],
-        tags: ["Physics", "Chemistry", "Mathematics"],
+        title: "Diploma in Mathematics and Physics Discipline",
+        duration: "2014 - 2018",
+        subtitle: "Salam High School",
+        details: [
+            `Ranked 6th among 240 high schools in Iran (2013)`,
+            `GPA: 4/4`,
+        ],
+        tags: [],
         icon: "book",
     },
 ];
@@ -242,16 +286,12 @@ export const footer = [
         label: "Dev Profiles",
         data: [
             {
-                text: "Stackoverflow",
-                link: "https://stackoverflow.com/users/8461233/vinay-somawat",
-            },
-            {
                 text: "GitHub",
-                link: "https://github.com/vinaysomawat",
+                link: "https://github.com/amirh-khali",
             },
             {
-                text: "LeetCode",
-                link: "https://leetcode.com/somawatvinay/",
+                text: "Codeforces",
+                link: "https://codeforces.com/profile/irtTbow",
             },
         ],
     },
@@ -267,8 +307,8 @@ export const footer = [
                 func: "window.print()",
             },
             {
-                text: "Clone this page",
-                link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
+                text: "Terminal",
+                link: "https://amirh-khali.github.io/terminal/",
             },
         ],
     },
@@ -277,15 +317,15 @@ export const footer = [
         data: [
             {
                 text: "Linkedin",
-                link: "https://www.linkedin.com/in/vinaysomawat/",
+                link: "https://www.linkedin.com/in/dloneswordsman/",
             },
             {
-                text: "Twitter",
-                link: "https://twitter.com/thesigmakid",
+                text: "Instagram",
+                link: "https://www.instagram.com/khaaliofficial/",
             },
             {
-                text: "Buy me a coffee",
-                link: "https://www.buymeacoffee.com/r194dME8y",
+                text: "Telegram",
+                link: "https://t.me/DLoneSwordsman/",
             },
         ],
     },
@@ -298,7 +338,6 @@ export const footer = [
     },
 ];
 
-const gitUserName = "vinaysomawat";
 const mediumUserName = "vinaysomawat";
 
 export const URLs = {

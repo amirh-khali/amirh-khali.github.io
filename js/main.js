@@ -298,9 +298,9 @@ function enableDarkMode() {
 function detectDayNightMode() {
   const hours = new Date().getHours();
   const isDayTime = hours > 6 && hours < 20;
-  if (isDayTime === true) {
-    // do nothing
-  } else {
+  // if (isDayTime === true) {
+  //   // do nothing
+  // } else {
     enableDarkMode();
-  }
+  // }
 }
