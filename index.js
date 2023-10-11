@@ -1,7 +1,6 @@
 import {
     bio,
     skills,
-    URLs,
     projects,
     education,
     experience,
@@ -10,30 +9,6 @@ import {
   
   const { academicProjects, softwareProjects, androidProjects, freelanceProjects } =
     projects;
-  const { mediumURL } = URLs;
-  
-  /**
-   * Fetches blogs from Medium profile.
-   *
-   * @function
-   * @async
-   *
-   * @throws {Error} If there is any error in fetching the blogs from Medium profile.
-   *
-   * @returns {void}
-   */
-  
-  async function fetchBlogsFromMedium(url) {
-    try {
-      const response = await fetch(url);
-      const { items } = await response.json();
-      populateBlogs(items, "blogs");
-    } catch (error) {
-      throw new Error(
-        `Error in fetching the blogs from Medium profile: ${error}`
-      );
-    }
-  }
   
   /**
    * Populates bio to the HTML page.
@@ -401,8 +376,6 @@ import {
   populateBio(bio, "bio");
   
   populateSkills(skills, "skills");
-  
-  fetchBlogsFromMedium(mediumURL);
   
   populateProjects(academicProjects, "academic-projects");
   // populateProjects(softwareProjects, "software-projects");

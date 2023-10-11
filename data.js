@@ -299,10 +299,6 @@ export const footer = [
         label: "Resources",
         data: [
             {
-                text: "Enable Dark/Light Mode",
-                func: "enableDarkMode()",
-            },
-            {
                 text: "Print this page",
                 func: "window.print()",
             },
@@ -337,9 +333,3 @@ export const footer = [
         ],
     },
 ];
-
-const mediumUserName = "vinaysomawat";
-
-export const URLs = {
-    mediumURL: `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${mediumUserName}`,
-};
