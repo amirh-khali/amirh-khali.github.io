@@ -7,7 +7,7 @@ import {
     footer,
   } from "./data.js";
   
-  const { academicProjects, softwareProjects, androidProjects, freelanceProjects } =
+  const { Courses, DataAndAIProjects, GameProjects, SoftwareProjects } =
     projects;
   
   /**
@@ -377,10 +377,10 @@ import {
   
   populateSkills(skills, "skills");
   
-  populateProjects(academicProjects, "academic-projects");
-  // populateProjects(softwareProjects, "software-projects");
-  // populateProjects(androidProjects, "android-projects");
-  // populateProjects(freelanceProjects, "freelance-projects");
+  populateProjects(Courses, "courses");
+  populateProjects(DataAndAIProjects, "data-and-ai-projects");
+  populateProjects(GameProjects, "game-projects");
+  populateProjects(SoftwareProjects, "software-projects");
   
   populateExp_Edu(experience, "experience");
   populateExp_Edu(education, "education");
