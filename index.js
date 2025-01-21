@@ -7,7 +7,7 @@ import {
     footer,
   } from "./data.js";
   
-  const { Courses, DataAndAIProjects, GameProjects, SoftwareProjects } =
+  const { SoftwareProjects } =
     projects;
   
   /**
@@ -101,6 +101,7 @@ import {
   
     let divSubHeading = document.createElement("div");
     divSubHeading.className = "sub-heading";
+    divSubHeading.append(h4);
     divSubHeading.append(p);
     divSubHeading.append(divSpan);
     divResumeContentRight.append(divSubHeading);
@@ -377,9 +378,6 @@ import {
   
   populateSkills(skills, "skills");
   
-  populateProjects(Courses, "courses");
-  populateProjects(DataAndAIProjects, "data-and-ai-projects");
-  populateProjects(GameProjects, "game-projects");
   populateProjects(SoftwareProjects, "software-projects");
   
   populateExp_Edu(experience, "experience");

@@ -1,8 +1,7 @@
 export const bio = [
-    "Hello there, This is Amirhossein Ahmadi.",
-    `I have recently graduated with a B.S.c degree in Computer Engineering from the Iran University of Science and Technology (IUST).`,
-    `I'm also a former student of the <b>Computer Olympiad</b>, with a background as a Backend Developer (<b>Spring</b>, <b>Django</b>) and limited work in the field of Data Science.`,
-    "Thanks for taking the time to learn a little about me!",
+    `I am a Software Engineer with <b>3+</b> years of experience in backend development, specializing in <b>Spring Boot</b> and <b>Django</b> Frameworks, and <b>microservice</b> architectures. I have a proven track record of building scalable systems, working with databases like <b>MongoDB</b> and <b>PostgreSQL</b>, and managing message brokers such as <b>Apache Kafka</b>.`,
+    `In addition to my professional experience, I hold a Bachelor's degree in Computer Engineering from <b>Iran University of Science and Technology</b> and earned a <b>Bronze Medal</b> in the Iranian National <b>Olympiad</b> in Informatics, showcasing my strong problem-solving and algorithmic skills.`,
+    `I am passionate about leveraging cutting-edge technologies to drive efficiency and innovation. Let's connect to explore how I can bring value to your team.`
 ];
 
 export const skills = [
@@ -34,7 +33,7 @@ export const skills = [
         title: "Java frameworks",
         skillName: "Spring, Spring-Boot",
         color: "3",
-        percentage: "70",
+        percentage: "80",
     },
     {
         title: "Data and ML",
@@ -50,139 +49,13 @@ export const skills = [
     },
     {
         title: "Foreign Language",
-        skillName: "English",
+        skillName: "English[IELTS]: 7 (L: 7.5, W: 6, R: 7.5, S: 6)",
         color: "1",
-        percentage: "70",
+        percentage: "77",
     },
 ];
 
 export const projects = {
-    Courses: [
-        {
-            projectName: "Embedded and Real-Time Systems",
-            image: "images/IoT.jpeg",
-            summary:
-                "Covers various topics such as implementing embedded systems on STM32 board, statecharts, and working with Arduino board via MQTT protocols",
-            preview: "https://github.com/amirh-khali/iot-and-embedded-systems-course-00012/tree/main",
-            techStack: ["arduino", "statecharts", "scheduling", "stm32", "android"],
-        },
-        {
-            projectName: "Deep Learning",
-            image: "images/deep-learning.jpg",
-            summary:
-                "Covers various topics in deep learning such as Neural networks, Convolutional neural networks, Recurrent neural networks, Generative adversarial networks, Transformer models.",
-            preview: "https://github.com/AmirH-KHALI/deep-learning-course-00011",
-            techStack: ["python", "neural-network", "keras", "tensorflow", "rnn", "transformers"],
-        },
-        {
-            projectName: "Fundamentals of Computational Intelligence",
-            image: "images/computational-intelligence.jpeg",
-            summary:
-                "Covers various implementation such as SOFM, MLP, Hopfield Network, ... from scratch.",
-            preview: "https://github.com/AmirH-KHALI/computational-intelligence-course",
-            techStack: ["python", "juputer-notebook", "matplotlib", "scikit‑learn"],
-        },
-        {
-            projectName: "Artificial Intelligence and Expert Systems",
-            image: "images/pacman.png",
-            summary:
-                "Solutions for Pac-Man practical projects of UC Berkeley\’s CS 188 course in 2019.",
-            preview: "https://github.com/AmirH-KHALI/artificial-intelligence-course-99001",
-            techStack: ["python", "q-learning", "a-star", "alpha-beta-pruning", "expectimax", "minmax"],
-        },
-        {
-            projectName: "Analysis and Design of Algorithms",
-            image: "images/algorithms.jpg",
-            summary:
-                "Solutions for Algorithms on Graphs, Algorithms on Strings, and Advanced Algorithms and Complexity Courses in UCSD\’s Data Structures and Algorithms specialization.",
-            preview: "https://github.com/AmirH-KHALI/algorithm-design-course-98992",
-            techStack: ["c-sharp", "dotnet", "algorithms", "data-structures"],
-        },
-        {
-            projectName: "Data Structures",
-            image: "images/data-structure.webp",
-            summary:
-                "Solutions for Algorithmic Toolbox and Data Structures in UCSD\’s Data Structures and Algorithms specialization.",
-            preview: "https://github.com/AmirH-KHALI/data-structures-course-98991",
-            techStack: ["c-sharp", "dotnet", "algorithms", "data-structures"],
-        },
-    ],
-    DataAndAIProjects: [
-        {
-            projectName: "Data collection and automatic labeling for dense video captioning models [Final Thesis]",
-            image: "images/final-thesis.jpg",
-            summary:
-                "Two implementation for data labeling. The first method is using the raw description provided by YouTube for videos and the second one is using raw subtitles of the videos.",
-            preview: "https://github.com/amirh-khali/aavdc-collection",
-            techStack: ["python", "data-collection", "video-captioning", "auto-annotation"],
-        },
-        {
-            projectName: "MPA Classification",
-            image: "images/mpa.jpg",
-            summary:
-                "Movie classification Based on plot summary for different ratings.",
-            preview: "https://github.com/AmirH-KHALI/mpa-classification-using-plot",
-            techStack: ["python", "jupyter-notebook", "transformes", "bert", "imdb"],
-        },
-        {
-            projectName: "OCR",
-            image: "images/ocr.png",
-            summary:
-                "OCR (Optical Character Recognition) for Iranian ID and credit cards.",
-            preview: "https://github.com/meliiwamd/OpticalCharacterRecognition",
-            techStack: ["python", "juputer-notebook", "pillow", "open-cv"],
-        },
-    ],
-    GameProjects: [
-        {
-            projectName: "Super Mario Bros",
-            image: "images/super-mario.jpg",
-            summary:
-                "A platformer game which the player controls Mario as they traverse the Mushroom Kingdom to rescue Princess Peach from Bowser.",
-            preview: "https://github.com/amirh-khali/mario",
-            techStack: ["c-sharp", "unity"],
-        },
-        {
-            projectName: "Flappy Bird",
-            image: "images/flappy-bird.jpg",
-            summary:
-                "A side-scroller game where the player controls a bird, attempting to fly between columns of green pipes without hitting them.",
-            preview: "https://github.com/amirh-khali/flappy-bird",
-            techStack: ["c-sharp", "unity"],
-        },
-        {
-            projectName: "Sad Tap",
-            image: "images/sad-tap.jpg",
-            summary:
-                "A simple and addictive Unity game based on one of Pou's minigames.",
-            preview: "https://github.com/amirh-khali/sad-tap",
-            techStack: ["c-sharp", "unity"],
-        },
-        {
-            projectName: "Carbazi",
-            image: "images/McQueen.jpg",
-            summary:
-                "A simple Unity game project that lets you drive a car, honk its horn, and turn on its lights when it's in a tunnel.",
-            preview: "https://github.com/amirh-khali/carbazi",
-            techStack: ["c-sharp", "unity"],
-        },
-        {
-            projectName: "Stronghold - Advanced Programming",
-            image: "images/Stronghold.jpg",
-            summary:
-                "A simple implementation of a medieval castle siege game (Stronghold).",
-            preview: "https://github.com/AmirH-KHALI/advanced-programming-final-project-stronghold",
-            techStack: ["java", "javafx", "swing"],
-        },
-        {
-            projectName: "River Raid - Programming Basics",
-            image: "images/river-raid.jpeg",
-            summary:
-                "A simple implementation inspired by the classic Atari game River Raid.",
-            preview: "https://github.com/amirh-khali/programming-basics-final-project-river-raid",
-            techStack: ["c-plus-plus", "makefile", "sdl2"],
-        },
-    ],
     SoftwareProjects: [
         {
             projectName: "MHQ - Software Engineering",
@@ -207,14 +80,15 @@ export const experience = [
     {
         title: "Metrix",
         duration: "Feb. 2023 - Present",
-        subtitle: "Back-End Developer",
+        subtitle: "Software Engineer",
         details: [
-            `Developed and Maintained some micro-services (based on Kotlin and Spring Boot) related to "Marketing Automation".`,
-            `Expanded new features like Automation Journey and Different types of Campaigns (SMS/Email/Push-Notification/..).`,
+            `Developed and Maintained some micro‑services (based on Kotlin and Spring Boot) related to ”Marketing Automation”.`,
+            `Expanded new features like Automation Journey and Different types of Campaigns (SMS/Email/Push‑Notification/..).`,
             `Worked with many databases and message queuing services like MongoDB, Elasticsearch, and Kafka.`,
-            `Deployed and monitor services using Kubectl, Grafana, Kibana and Sentry.`,
+            `Deployed and monitored services using Kubectl, Grafana, and Kibana.`,
+            `Used load testing tools like JMeter to evaluate services at scale.`
         ],
-        tags: ["Java", "Spring boot", "Kafka", "Elasticsearch"],
+        tags: ["Kotlin", "Spring boot", "Kafka", "Elasticsearch", "MongoDB"],
         icon: "bar-chart",
     },
     {
@@ -222,8 +96,8 @@ export const experience = [
         duration: "Jul. 2021 - Nov. 2021",
         subtitle: "Data Scientist",
         details: [
-            `Maintained a prediction service related to "Retail Inventories".`,
-            `Developed required features to improve availability of goods and minimize the false positive.`,
+            `Maintained a prediction service related to ”Retail Inventories”.`,
+            `Developed required features to improve the availability of goods and minimize the false-positive.`,
             `Designed new models to help the main model results.`,
             `Analyzed the data using Python, Pandas, Numpy, etc.`,
         ],
@@ -235,10 +109,10 @@ export const experience = [
         duration: "Aug. 2020 - Mar. 2021",
         subtitle: "Back-End Developer",
         details: [
-            `Maintained a back-end service (based on Spring Boot) related to ”Retail Inventories”.`,
-            `Developed required features for the process of apply new goods availability with OOP`,
-            `Expanded new features for shoppers application in the android app and server.`,
-            `Worked closely with my PM and other colleagues as an agile team for improving our products.`,
+            `Maintained a back‑end service (based on Spring Boot) related to ”Retail Inventories”.`,
+            `Developed the required features for applying new goods availability using OOP.`,
+            `Expanded new features for shoppers application in the Android app and server.`,
+            `Worked closely with my PM and colleagues as an agile team to improve our products.`,
         ],
         tags: ["Java", "Spring", "Spring boot", "PostgreSQL", "Android"],
         icon: "shopping-cart",
@@ -251,10 +125,10 @@ export const education = [
         duration: "Sep. 2018 - Sep. 2023",
         subtitle: "Iran University of Science and Technology (IUST)",
         details: [
-            `Ranked 4th among Iran universities based on QS ranking 2024`,
-            `GPA - Last two years [via 60 credits]: 3.8 (17.93 / 20)`,
-            `GPA - Overall [via 143 credits]: 3.35 (16.54 / 20)`,
-            `Final Thesis: Data collection and automatic labeling for dense video captioning models (Under publication)`,
+            `Ranked 4th among Iran universities based on QS ranking`,
+            `GPA - Last two years [via 60 credits]: 3.85 (17.98 / 20)`,
+            `GPA - Overall [via 143 credits]: 3.38 (16.56 / 20)`,
+            `Final Thesis: Data collection and automatic labeling for dense video captioning models`,
         ],
         tags: [],
         icon: "graduation-cap",
@@ -264,7 +138,6 @@ export const education = [
         duration: "2014 - 2018",
         subtitle: "Salam High School",
         details: [
-            `Ranked 6th among 240 high schools in Iran (2013)`,
             `GPA: 4/4`,
         ],
         tags: [],
