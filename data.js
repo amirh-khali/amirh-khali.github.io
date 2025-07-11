@@ -1,21 +1,20 @@
 export const bio = [
-    `I am a Software Engineer with <b>3+</b> years of experience in backend development, specializing in <b>Spring Boot</b> and <b>Django</b> Frameworks, and <b>microservice</b> architectures. I have a proven track record of building scalable systems, working with databases like <b>MongoDB</b> and <b>PostgreSQL</b>, and managing message brokers such as <b>Apache Kafka</b>.`,
-    `In addition to my professional experience, I hold a Bachelor's degree in Computer Engineering from <b>Iran University of Science and Technology</b> and earned a <b>Bronze Medal</b> in the Iranian National <b>Olympiad</b> in Informatics, showcasing my strong problem-solving and algorithmic skills.`,
-    `I am passionate about leveraging cutting-edge technologies to drive efficiency and innovation. Let's connect to explore how I can bring value to your team.`
+    `Software Engineer with years of backend development experience using Spring Boot and Django.<br/>Bachelor’s degree in Computer Engineering from Iran University of Science and Technology.<br/>Bronze Medalist in the Iranian National Olympiad in Informatics.`,
+    `I’m always excited to explore new ideas and opportunities. If you think we could collaborate in any way, let’s connect!`
 ];
 
 export const skills = [
     {
-        title: "Proficient at",
-        skillName: "Python, C, C++, Java",
+        title: "Languages",
+        skillName: "Python, C, C++, Java, Kotlin",
         color: "1",
         percentage: "80",
     },
     {
-        title: "Familiar with",
-        skillName: "Assembly, C\#, Verilog, Arduino",
+        title: "Datebases",
+        skillName: "PostgreSQL, MongoDB, Elasticsearch, Apache Kafka, Redis",
         color: "6",
-        percentage: "50",
+        percentage: "75",
     },
     {
         title: "Others",
@@ -61,7 +60,7 @@ export const projects = {
             projectName: "MHQ - Software Engineering",
             image: "images/mhq.jpg",
             summary:
-                "A collaboration platform for API development and automation. it simplifies each step of building an API and creating scenarios for your APIs.",
+                "A collaboration platform for automated API development using Python, Django, and PostgreSQL as the primary database.",
             preview: "https://github.com/mhq-dev",
             techStack: ["python", "django", "docker", "celery", "celery-beat"],
         },
@@ -69,7 +68,7 @@ export const projects = {
             projectName: "TalkZone - System Design \& Analysis",
             image: "images/2319.jpg",
             summary:
-                "A dating app like tinder, but With opening messages instead of photos.",
+                "A dating app similar to Tinder (with opening messages instead of photos) based on Python, Django, and PostgreSQL as the main database.",
             preview: "https://github.com/twenty-three-nineteen",
             techStack: ["python", "django", "django-rest-framework", "django-channels"],
         },
@@ -79,42 +78,39 @@ export const projects = {
 export const experience = [
     {
         title: "Metrix",
-        duration: "Feb. 2023 - Present",
+        duration: "Feb. 2025 - Present",
+        subtitle: "Technical Team Lead",
+        details: [
+            `Led a <b>4-developer team to manage the migration of automation microservices into a unified monolith, enhancing development velocity by 2x.`,
+            `Implemented a flexible deployment model for the new <b>monolith, enabling vertical scaling and resource optimization.`,
+            `Improved internal and technical documentation and feature development, supporting delivery of <b>2M+ messages daily.`
+        ],
+        tags: ["Spring boot", "Kotlin", "Kafka", "Elasticsearch", "MongoDB", "Agile"],
+        icon: "bar-chart",
+    },
+    {
+        title: "Metrix",
+        duration: "Feb. 2023 - Feb. 2025",
         subtitle: "Software Engineer",
         details: [
-            `Developed and Maintained some micro‑services (based on Kotlin and Spring Boot) related to ”Marketing Automation”.`,
-            `Expanded new features like Automation Journey and Different types of Campaigns (SMS/Email/Push‑Notification/..).`,
-            `Worked with many databases and message queuing services like MongoDB, Elasticsearch, and Kafka.`,
-            `Deployed and monitored services using Kubectl, Grafana, and Kibana.`,
-            `Used load testing tools like JMeter to evaluate services at scale.`
+            `Developed and integrated marketing automation microservices (<b>Kotlin</b>, <b>Spring Boot</b>, <b>MongoDB</b>, <b>Elasticsearch</b>) via <b>Kafka</b>.`,
+            `Expanded initial features: <b>Campaign statistics, <b>Journey</b> flow control nodes, and live user <b>Segments</b>.`,
+            `Reduced sending time of <b>10M+ messages</b> from hours to under one hour by implementing batching techniques and <b>Redis</b>-based caching. Performance was validated through <b>end-to-end load testing</b> with JMeter.`,
+            `Deployed and monitored services using <b>Kubectl</b>, <b>Grafana</b>, and <b>Kibana</b>.`,
         ],
-        tags: ["Kotlin", "Spring boot", "Kafka", "Elasticsearch", "MongoDB"],
+        tags: ["Spring Boot", "Kotlin", "Kafka", "MongoDB", "Elasticsearch"],
         icon: "bar-chart",
     },
     {
         title: "Pinket",
-        duration: "Jul. 2021 - Nov. 2021",
-        subtitle: "Data Scientist",
-        details: [
-            `Maintained a prediction service related to ”Retail Inventories”.`,
-            `Developed required features to improve the availability of goods and minimize the false-positive.`,
-            `Designed new models to help the main model results.`,
-            `Analyzed the data using Python, Pandas, Numpy, etc.`,
-        ],
-        tags: ["Python", "Pandas", "Numpy", "Boosting Models", "MongoDB"],
-        icon: "shopping-cart",
-    },
-    {
-        title: "Pinket",
-        duration: "Aug. 2020 - Mar. 2021",
+        duration: "Aug. 2020 - Nov. 2021",
         subtitle: "Back-End Developer",
         details: [
-            `Maintained a back‑end service (based on Spring Boot) related to ”Retail Inventories”.`,
-            `Developed the required features for applying new goods availability using OOP.`,
-            `Expanded new features for shoppers application in the Android app and server.`,
-            `Worked closely with my PM and colleagues as an agile team to improve our products.`,
+            `Developed a <b>Spring Boot</b> service backed by <b>PostgreSQL</b> to fetch inventory data from external retailers via APIs, file uploads, or webhooks.`,
+            `Briefly contributed to a shelf inventory forecasting service by refining input data to improve model accuracy.`,
+            `Built features for the shopper's <b>Android</b> app to enable shelf availability reporting.`,
         ],
-        tags: ["Java", "Spring", "Spring boot", "PostgreSQL", "Android"],
+        tags: ["Spring Boot", "Java", "PostgreSQL", "Python", "Pandas", "MongoDB", "Android"],
         icon: "shopping-cart",
     },
 ];
